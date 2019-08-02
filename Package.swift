@@ -6,7 +6,7 @@ let package = Package(
     name: "Charts",
     platforms: [.iOS(.v8), .macOS(.v10_11), .tvOS(.v9)],
     products: [
-        .library(name: "Charts", type: .dynamic, targets: ["Charts"])
+        .library(name: "Charts", targets: ["Charts"])
     ],
     dependencies: [],
     targets: [
